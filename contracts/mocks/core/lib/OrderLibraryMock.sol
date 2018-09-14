@@ -3,7 +3,8 @@ pragma experimental "ABIEncoderV2";
 
 import { OrderLibrary } from "../../../core/lib/OrderLibrary.sol";
 
-// Mock contract implementation of OrderLibrary functions
+/
+/ Mock contract implementation of OrderLibrary functions
 contract OrderLibraryMock {
     function testGenerateOrderHash(
         address[5] _addresses,

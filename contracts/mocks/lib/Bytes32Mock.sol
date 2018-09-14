@@ -2,6 +2,7 @@ pragma solidity 0.4.24;
 
 import { Bytes32 } from "../../lib/Bytes32.sol";
 
+
 contract Bytes32Mock {
     function testBytes32ToBytes(bytes32 data)
         public

@@ -1,0 +1,12 @@
+pragma solidity ^0.4.24;
+
+//DRCT_Token functions - descriptions can be found in DRCT_Token.sol
+interface DRCT_Token_Interface {
+  function addressCount(address _swap) external view returns (uint);
+  function getBalanceAndHolderByIndex(uint _ind, address _swap) external view returns (uint, address);
+  function getIndexByAddress(address _owner, address _swap) external view returns (uint);
+  function createToken(uint _supply, address _owner, address _swap) external;
+  function getFactoryAddress() external view returns(address);
+  function pay(address _party, address _swap) external;
+  function partyCount(address _swap) external view returns(uint);
+}

@@ -4,7 +4,8 @@ import { Core } from "../../core/Core.sol";
 import { IRebalancingSetToken } from "../../core/interfaces/IRebalancingSetToken.sol";
 import { ISetToken } from "../../core/interfaces/ISetToken.sol";
 
-// Mock contract implementation of Core with extra functions for testing
+/
+/ Mock contract implementation of Core with extra functions for testing
 contract CoreMock is Core {
     constructor(
         address _transferProxy,

@@ -2,7 +2,8 @@ pragma solidity 0.4.24;
 
 import "zeppelin-solidity/contracts/math/SafeMath.sol";
 
-// mock class using BasicToken
+/
+/ mock class using BasicToken
 contract NoXferReturnTokenMock {
 
   using SafeMath for uint256;
